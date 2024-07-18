@@ -9,3 +9,6 @@ jobs:
       - name: Greeting
         run: |
           echo "Hello, I'm $GITHUB_ACTOR"
+      - name: Hobby
+        run: |
+          echo "my Hobby is ${{ vars.MY_HOBBY }}"
